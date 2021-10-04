@@ -1,5 +1,5 @@
 def lower_bound(array, n, x):
-    left, right = -1, n
+    left, right = -1, n - 1
     while left < right - 1:
         m = (left + right) // 2
         if x <= array[m]:
@@ -15,12 +15,6 @@ queries = [*map(int, input().split())]
 for query in queries:
 
     lb, ub = lower_bound(array, n, query), lower_bound(array, n, query + 1)
-    
-    if lb == n: 
-        lb -= 1
-    
-    if ub == n:
-        ub -= 1
     
     if array[lb] != query and lb != 0:
         lb -= 1
