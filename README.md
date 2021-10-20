@@ -10,4 +10,4 @@
    - [Промышленная разработка на python](./python)
        1. [ДЗ 1](./python/hw1)
    - [Математическая статистика](./math_stat)
-       1. [ДЗ 1](./math_stat/hw1)
+       1. [ДЗ 1](./math_stat/hw1.ipynb)
