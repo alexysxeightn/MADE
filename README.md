@@ -13,3 +13,4 @@
        1. [ДЗ 1](./math_stat/hw1.ipynb)
    - [Машинное обучение](./ml)
        1. [ДЗ 1 (kNN)](./ml/hw1.ipynb) 
+       2. [ДЗ 2 (Loss and derivatives)](./ml/hw2.ipynb)
