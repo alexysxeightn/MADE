@@ -16,11 +16,11 @@ TEST_DATASET_STORE_PATH = './dataset.txt'
 TEST_OUTPUT_STORE_PATH = './test_inverted.index'
 
 TEST_CORRECT_ANSWER_ON_QUERIES = [['12', '13'],
-								  ['123', '37'],
-								  ['12'],
-								  [''],
-								  [''],
-								  ['']]
+				  ['123', '37'],
+				  ['12'],
+				  [''],
+				  [''],
+				  ['']]
 
 def test_process_queries_can_process_all_queries_from_file_utf8_struct(capsys):
 	with open(TEST_QUERY_STORE_PATH_UTF8) as queries_fin:
