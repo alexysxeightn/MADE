@@ -13,6 +13,7 @@
 * ### Промышленная разработка на python
     + [ДЗ 1 (pytest)](./python/hw1)
     + [ДЗ 2 (CLI, argparse)](./python/hw2)
+    + [ДЗ 3 (Кодировки, pytest:capsys)](./python/hw3)
 * ### Математическая статистика
     + [ДЗ 1](./math_stat/hw1.ipynb)
 * ### Машинное обучение
