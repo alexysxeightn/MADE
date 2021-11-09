@@ -1,6 +1,6 @@
 # MADE 2021-2022
 
-![MADE](https://data.vk.company/static/core/pub/bigdata/img/main_logo.svg?)
+![MADE](https://ya.cc/t/omlrJg-mwoPbk)
 
 ## Первый семестр
 * ### Алгоритмы и структуры данных
