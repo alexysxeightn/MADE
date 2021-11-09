@@ -1,6 +1,6 @@
 # MADE 2021-2022
 
-![MADE](https://ya.cc/t/omlrJg-mwoPbk)
+![MADE](https://hsto.org/webt/uc/si/yy/ucsiyy0kdfx4arzzrcgayur751m.png)
 
 ## Первый семестр
 * ### Алгоритмы и структуры данных
