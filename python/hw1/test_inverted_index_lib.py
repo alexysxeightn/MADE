@@ -1,4 +1,3 @@
-#score: 0.9826250000000001
 from textwrap import dedent
 
 import pytest
