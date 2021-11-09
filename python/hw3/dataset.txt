@@ -1,0 +1,6 @@
+123	some words A_word and nothing
+2	some word B_word in this dataset
+5	famous phrases to be or not to be
+37	all words such as A_word and B_word are here
+12	тестовая строчка на русском
+13	еще одна строчка на кирилице
