@@ -1,5 +1,7 @@
 # MADE 2021-2022
 
+[MADE](https://data.vk.company/static/core/pub/bigdata/img/main_logo.svg?v=5.54.3)
+
 ## Первый семестр
 * ### Алгоритмы и структуры данных
     + [ДЗ 1 (Сортировки и О-нотация)](./algo/hw1)
