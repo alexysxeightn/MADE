@@ -1,6 +1,6 @@
 # MADE 2021-2022
 
-[![MADE](https://hsto.org/webt/uc/si/yy/ucsiyy0kdfx4arzzrcgayur751m.png)](https://data.vk.company/)
+[![MADE](https://hsto.org/webt/uc/si/yy/ucsiyy0kdfx4arzzrcgayur751m.png)](https://data.vk.company/ = 250x)
 
 ## Первый семестр
 * ### Алгоритмы и структуры данных
