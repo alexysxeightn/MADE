@@ -1,0 +1,28 @@
+version: 1
+formatters:
+  formatter:
+    class: logging.Formatter
+    format: "%(asctime)s %(name)s %(levelname)s %(message)s"
+handlers:
+  file_handler_debug:
+    class: logging.FileHandler
+    filename: asset_log.debug
+    level: DEBUG
+    formatter: formatter
+  file_handler_warn:
+    class: logging.FileHandler
+    filename: asset_log.warn
+    level: WARNING
+    formatter: formatter
+  stderr_handler_info:
+    class: logging.StreamHandler
+    stream: ext://sys.stderr
+    level: INFO
+    formatter: formatter
+loggers:
+  asset:
+    level: DEBUG
+    handlers:
+      - file_handler_debug
+      - file_handler_warn
+      - stderr_handler_info
