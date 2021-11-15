@@ -42,9 +42,9 @@ def test_correct_process_cli_argumetns(asset_file, capsys, caplog):
 	process_cli_arguments(arguments)
 
 	CORRECT_PRINT = [['2:', '84.000'],
-					 ['1:', '40.000'],
-					 ['5:', '244.204'],
-					 ['4:', '185.640']]
+			['1:', '40.000'],
+			['5:', '244.204'],
+			['4:', '185.640']]
 
 	captured = capsys.readouterr().out.split('\n')[:-1]
 	captured = [string.strip().split() for string in captured]
