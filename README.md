@@ -22,5 +22,6 @@
 * ### Математическая статистика
     + [ДЗ 1](./math_stat/hw1.ipynb)
 * ### Машинное обучение
+    + [Лабораторная работа 1 (ml_pipeline & SVM)](./ml/lab1)
     + [ДЗ 1 (kNN)](./ml/hw1.ipynb) 
     + [ДЗ 2 (Loss and derivatives)](./ml/hw2.ipynb)
