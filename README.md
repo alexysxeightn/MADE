@@ -19,7 +19,8 @@
     + [ДЗ 2 (CLI, argparse)](./python/hw2)
     + [ДЗ 3 (Кодировки, pytest:capsys)](./python/hw3)
     + [ДЗ 4 (Логирование в Python, YAML)](./python/hw4)
-    + [Дз 5 (Mock внешних зависимостей)](./python/hw5)
+    + [ДЗ 5 (Mock внешних зависимостей)](./python/hw5)
+    + [ДЗ 6 (Web Spy)](./python/hw6)
 * ### Математическая статистика
     + [ДЗ 1](./math_stat/hw1.ipynb)
 * ### Машинное обучение
