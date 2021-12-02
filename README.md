@@ -22,6 +22,7 @@
     + [ДЗ 4 (Логирование в Python, YAML)](./python/hw4)
     + [ДЗ 5 (Mock внешних зависимостей)](./python/hw5)
     + [ДЗ 6 (Web Spy)](./python/hw6)
+    + [ДЗ 7 (Decorator Design Pattern)](./python/hw7) 
 * ### Математическая статистика
     + [ДЗ 1](./math_stat/hw1.ipynb)
 * ### Машинное обучение
