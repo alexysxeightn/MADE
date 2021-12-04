@@ -55,8 +55,8 @@ def test_all_decorator_together_work_correct(capsys):
 	print_test_message()
 
 	correct_answer = ['class: before function call'] + \
-					 4 * ['before function call','Test message', 'after function call'] + \
-					 ['class: after function call']
+			 4 * ['before function call','Test message', 'after function call'] + \
+			 ['class: after function call']
 	captured = capsys.readouterr().out.strip().split('\n')
 	assert correct_answer == captured
 	assert "doc_string for print_test_message" == print_test_message.__doc__
