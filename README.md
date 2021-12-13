@@ -24,6 +24,7 @@
     + [ДЗ 5 (Mock внешних зависимостей)](./python/hw5)
     + [ДЗ 6 (Web Spy)](./python/hw6)
     + [ДЗ 7 (Decorator Design Pattern)](./python/hw7) 
+    + [ДЗ 8 (Asset Web Service)](./python/hw8)
 * ### Математическая статистика
     + [ДЗ 1](./math_stat/hw1.ipynb)
 * ### Машинное обучение
