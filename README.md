@@ -25,6 +25,7 @@
     + [ДЗ 6 (Web Spy)](./python/hw6)
     + [ДЗ 7 (Decorator Design Pattern)](./python/hw7) 
     + [ДЗ 8 (Asset Web Service)](./python/hw8)
+    + [ДЗ 9 (Web Service Logs)](./python/hw9)
 * ### Математическая статистика
     + [ДЗ 1](./math_stat/hw1.ipynb)
 * ### Машинное обучение
