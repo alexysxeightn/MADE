@@ -33,3 +33,6 @@
     + [Лабораторная работа 1 (ml_pipeline & SVM)](./ml/lab1)
     + [ДЗ 1 (kNN)](./ml/hw1.ipynb) 
     + [ДЗ 2 (Loss and derivatives)](./ml/hw2.ipynb)
+    + [ДЗ 3 (SVM Kernel)](./ml/hw3.ipynb)
+    + [ДЗ 4 (Decision Tree)](./ml/hw4.ipynb)
+    + [ДЗ 5 (NN from scratch)](./ml/hw5.ipynb)
