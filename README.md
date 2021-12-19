@@ -27,8 +27,6 @@
     + [ДЗ 7 (Decorator Design Pattern)](./python/hw7) 
     + [ДЗ 8 (Asset Web Service)](./python/hw8)
     + [ДЗ 9 (Web Service Logs)](./python/hw9)
-* ### Математическая статистика
-    + [ДЗ 1](./math_stat/hw1.ipynb)
 * ### Машинное обучение
     + [Лабораторная работа 1 (ml_pipeline & SVM)](./ml/lab1)
     + [ДЗ 1 (kNN)](./ml/hw1.ipynb) 
@@ -36,3 +34,5 @@
     + [ДЗ 3 (SVM Kernel)](./ml/hw3.ipynb)
     + [ДЗ 4 (Decision Tree)](./ml/hw4.ipynb)
     + [ДЗ 5 (NN from scratch)](./ml/hw5.ipynb)
+* ### Математическая статистика
+    + [ДЗ 1](./math_stat/hw1.ipynb)
