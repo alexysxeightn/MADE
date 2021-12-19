@@ -1,0 +1,120 @@
+20211219_182539.035 task_web_service_log DEBUG start processing query: python yu
+20211219_182540.351 task_web_service_log INFO found 307 articles for query: python yu
+20211219_182540.351 task_web_service_log DEBUG finish processing query: python yu
+20211219_182540.408 task_web_service_log DEBUG start processing query: python test
+20211219_182541.792 task_web_service_log INFO found 2491 articles for query: python test
+20211219_182541.792 task_web_service_log DEBUG finish processing query: python test
+20211219_182541.806 task_web_service_log DEBUG start processing query: python semantic
+20211219_182543.071 task_web_service_log INFO found 390 articles for query: python semantic
+20211219_182543.071 task_web_service_log DEBUG finish processing query: python semantic
+20211219_182543.082 task_web_service_log DEBUG start processing query: python test
+20211219_182544.455 task_web_service_log INFO found 2491 articles for query: python test
+20211219_182544.455 task_web_service_log DEBUG finish processing query: python test
+20211219_182544.471 task_web_service_log DEBUG start processing query: python redner
+20211219_182545.515 task_web_service_log INFO found 1 articles for query: python redner
+20211219_182545.515 task_web_service_log DEBUG finish processing query: python redner
+20211219_182545.524 task_web_service_log DEBUG start processing query: python test
+20211219_182546.860 task_web_service_log INFO found 2491 articles for query: python test
+20211219_182546.860 task_web_service_log DEBUG finish processing query: python test
+20211219_182546.874 task_web_service_log DEBUG start processing query: python melkeTest
+20211219_182548.178 task_web_service_log INFO found 0 articles for query: python melkeTest
+20211219_182548.178 task_web_service_log DEBUG finish processing query: python melkeTest
+20211219_182548.188 task_web_service_log DEBUG start processing query: python test
+20211219_182549.511 task_web_service_log INFO found 2491 articles for query: python test
+20211219_182549.511 task_web_service_log DEBUG finish processing query: python test
+20211219_182549.524 task_web_service_log DEBUG start processing query: python upload
+20211219_182550.848 task_web_service_log INFO found 215 articles for query: python upload
+20211219_182550.848 task_web_service_log DEBUG finish processing query: python upload
+20211219_182550.864 task_web_service_log DEBUG start processing query: python pypi
+20211219_182552.180 task_web_service_log INFO found 90 articles for query: python pypi
+20211219_182552.180 task_web_service_log DEBUG finish processing query: python pypi
+20211219_182552.189 task_web_service_log DEBUG start processing query: python test_client
+20211219_182553.610 task_web_service_log INFO found 456 articles for query: python test_client
+20211219_182553.610 task_web_service_log DEBUG finish processing query: python test_client
+20211219_182553.619 task_web_service_log DEBUG start processing query: python overtest
+20211219_182554.911 task_web_service_log INFO found 0 articles for query: python overtest
+20211219_182554.911 task_web_service_log DEBUG finish processing query: python overtest
+20211219_182554.923 task_web_service_log DEBUG start processing query: python pytest
+20211219_182555.966 task_web_service_log INFO found 5 articles for query: python pytest
+20211219_182555.966 task_web_service_log DEBUG finish processing query: python pytest
+20211219_182555.975 task_web_service_log DEBUG start processing query: python sentry
+20211219_182557.322 task_web_service_log INFO found 77 articles for query: python sentry
+20211219_182557.322 task_web_service_log DEBUG finish processing query: python sentry
+20211219_182557.331 task_web_service_log DEBUG start processing query: python wix
+20211219_182558.564 task_web_service_log INFO found 12 articles for query: python wix
+20211219_182558.564 task_web_service_log DEBUG finish processing query: python wix
+20211219_182558.580 task_web_service_log DEBUG start processing query: python protos
+20211219_182559.892 task_web_service_log INFO found 137 articles for query: python protos
+20211219_182559.892 task_web_service_log DEBUG finish processing query: python protos
+20211219_182559.907 task_web_service_log DEBUG start processing query: python proto
+20211219_182601.296 task_web_service_log INFO found 137 articles for query: python proto
+20211219_182601.296 task_web_service_log DEBUG finish processing query: python proto
+20211219_182601.310 task_web_service_log DEBUG start processing query: python latest
+20211219_182602.724 task_web_service_log INFO found 1102 articles for query: python latest
+20211219_182602.724 task_web_service_log DEBUG finish processing query: python latest
+20211219_182602.738 task_web_service_log DEBUG start processing query: python greatest
+20211219_182604.173 task_web_service_log INFO found 1044 articles for query: python greatest
+20211219_182604.173 task_web_service_log DEBUG finish processing query: python greatest
+20211219_182604.187 task_web_service_log DEBUG start processing query: python example
+20211219_182606.213 task_web_service_log INFO found 4020 articles for query: python example
+20211219_182606.213 task_web_service_log DEBUG finish processing query: python example
+20211219_182606.227 task_web_service_log DEBUG start processing query: python api
+20211219_182607.619 task_web_service_log INFO found 1246 articles for query: python api
+20211219_182607.619 task_web_service_log DEBUG finish processing query: python api
+20211219_182607.633 task_web_service_log DEBUG start processing query: python odoo11
+20211219_182609.270 task_web_service_log INFO found 6 articles for query: python odoo11
+20211219_182609.270 task_web_service_log DEBUG finish processing query: python odoo11
+20211219_182609.279 task_web_service_log DEBUG start processing query: python addon
+20211219_182610.644 task_web_service_log INFO found 65 articles for query: python addon
+20211219_182610.644 task_web_service_log DEBUG finish processing query: python addon
+20211219_182610.657 task_web_service_log DEBUG start processing query: python test
+20211219_182612.050 task_web_service_log INFO found 2491 articles for query: python test
+20211219_182612.051 task_web_service_log DEBUG finish processing query: python test
+20211219_182612.064 task_web_service_log DEBUG start processing query: python component
+20211219_182613.454 task_web_service_log INFO found 1761 articles for query: python component
+20211219_182613.454 task_web_service_log DEBUG finish processing query: python component
+20211219_182613.463 task_web_service_log DEBUG start processing query: python glasswall
+20211219_182614.777 task_web_service_log INFO found 0 articles for query: python glasswall
+20211219_182614.777 task_web_service_log DEBUG finish processing query: python glasswall
+20211219_182614.791 task_web_service_log DEBUG start processing query: python azure
+20211219_182616.037 task_web_service_log INFO found 389 articles for query: python azure
+20211219_182616.037 task_web_service_log DEBUG finish processing query: python azure
+20211219_182616.051 task_web_service_log DEBUG start processing query: python product
+20211219_182617.431 task_web_service_log INFO found 2263 articles for query: python product
+20211219_182617.431 task_web_service_log DEBUG finish processing query: python product
+20211219_182617.440 task_web_service_log DEBUG start processing query: python test
+20211219_182618.702 task_web_service_log INFO found 2491 articles for query: python test
+20211219_182618.702 task_web_service_log DEBUG finish processing query: python test
+20211219_182618.711 task_web_service_log DEBUG start processing query: python automation
+20211219_182619.955 task_web_service_log INFO found 381 articles for query: python automation
+20211219_182619.955 task_web_service_log DEBUG finish processing query: python automation
+20211219_182619.964 task_web_service_log DEBUG start processing query: python funtest
+20211219_182621.461 task_web_service_log INFO found 41 articles for query: python funtest
+20211219_182621.461 task_web_service_log DEBUG finish processing query: python funtest
+20211219_182621.475 task_web_service_log DEBUG start processing query: python ray test
+20211219_182622.942 task_web_service_log INFO found 414 articles for query: python ray test
+20211219_182622.943 task_web_service_log DEBUG finish processing query: python ray test
+20211219_182622.956 task_web_service_log DEBUG start processing query: python pytest console scripts
+20211219_182624.539 task_web_service_log INFO found 2 articles for query: python pytest console scripts
+20211219_182624.539 task_web_service_log DEBUG finish processing query: python pytest console scripts
+20211219_182624.552 task_web_service_log DEBUG start processing query: python pytest notion
+20211219_182625.859 task_web_service_log INFO found 0 articles for query: python pytest notion
+20211219_182625.859 task_web_service_log DEBUG finish processing query: python pytest notion
+20211219_182625.868 task_web_service_log DEBUG start processing query: python test2 tanghao
+20211219_182628.012 task_web_service_log INFO found 1 articles for query: python test2 tanghao
+20211219_182628.012 task_web_service_log DEBUG finish processing query: python test2 tanghao
+20211219_182628.026 task_web_service_log DEBUG start processing query: python pytest telegram
+20211219_182629.471 task_web_service_log INFO found 7 articles for query: python pytest telegram
+20211219_182629.471 task_web_service_log DEBUG finish processing query: python pytest telegram
+20211219_182629.480 task_web_service_log DEBUG start processing query: python test9485
+20211219_182630.777 task_web_service_log INFO found 3 articles for query: python test9485
+20211219_182630.777 task_web_service_log DEBUG finish processing query: python test9485
+20211219_182630.791 task_web_service_log DEBUG start processing query: python flask pytest
+20211219_182632.185 task_web_service_log INFO found 2 articles for query: python flask pytest
+20211219_182632.186 task_web_service_log DEBUG finish processing query: python flask pytest
+20211219_182632.194 task_web_service_log DEBUG start processing query: python redlockfifo test
+20211219_182633.442 task_web_service_log INFO found 0 articles for query: python redlockfifo test
+20211219_182633.442 task_web_service_log DEBUG finish processing query: python redlockfifo test
+20211219_182633.451 task_web_service_log DEBUG start processing query: python pypi test test
+20211219_182634.981 task_web_service_log INFO found 28 articles for query: python pypi test test
+20211219_182634.981 task_web_service_log DEBUG finish processing query: python pypi test test
