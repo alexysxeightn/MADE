@@ -30,7 +30,7 @@
     + [ДЗ 9 (Web Service Logs)](./python/hw9)
 * ### Машинное обучение
     + [Лабораторная работа 1 (ml_pipeline & SVM)](./ml/lab1)
-    + [Лабораторная работа 2](./ml/lab2)
+    + [Лабораторная работа 2 (Deep learning)](./ml/lab2)
     + [ДЗ 1 (kNN)](./ml/hw1.ipynb) 
     + [ДЗ 2 (Loss and derivatives)](./ml/hw2.ipynb)
     + [ДЗ 3 (SVM Kernel)](./ml/hw3.ipynb)
