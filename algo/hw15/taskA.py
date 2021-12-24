@@ -1,21 +1,43 @@
+def is_digit(c):
+    return 0 <= ord(c) - ord('0') <= 9 
+
+def is_number(s):
+    if '0' == s:
+        return True
+    if is_digit(s[0]) and ord(s[0]) != ord('0'):
+        for symbol in s[1:]:
+            if not is_digit(symbol):
+                return False
+    else:
+        return False
+    return True
+
 class Token:
-    def __init__(self, s, type):
-        self.value = s
-        self.type = type
-    
-    def __str__(self):
-        return str(self.value)
-    
-    def __repr__(self):
-        print(self.value, end=' ')
+    def __init__(self, token):
+        self.type = None
+        self.subtype = None
+        self.value = token
+        
+        if token in '+-':
+            self.type = 'sum'
+            self.subtype = 'plus' if '+' == token else 'minus'
 
-class Number_Token(Token):
-    def __init__(self, s):
-        super().__init__(int(s), 'number')
+        elif '*' == token:
+            self.type = 'product'
+            self.subtype = 'multiplication'
+    
+        elif token in '()':
+            self.type = 'bracket'
+            self.subtype = 'left_bracket' if '(' == token else 'right_bracket'
+    
+        elif '.' == token:
+            self.type = 'end_token'
+    
+        elif is_number(token):
+            self.type, self.value = 'number', int(token)
 
-class Operand_Token(Token):
-    def __init__(self, s):
-        super().__init__(s, 'operand')
+        else:
+            self.type = 'unknown'
 
 class Lexer:
     def __init__(self, s):
@@ -27,17 +49,11 @@ class Lexer:
                 num_str += symbol
             else:
                 if num_str:
-                    self.tokens.append(Number_Token(num_str))
+                    self.tokens.append(Token(num_str))
                     num_str = ''
-                self.tokens.append(Operand_Token(symbol))
+                self.tokens.append(Token(symbol))
 
-def is_digit(c):
-    return 0 <= ord(c) - ord('0') <= 9 
-
-def main():
-    s = input()
-    lexer = Lexer(s)
-    print(*lexer.tokens[:-1], sep='\n')
-    
-if __name__ == '__main__':
-    main()
+s = input()
+lexer = Lexer(s)
+for token in lexer.tokens[:-1]:
+    print(token.value)
