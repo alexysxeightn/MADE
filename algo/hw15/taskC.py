@@ -14,10 +14,7 @@ def is_digit(c):
 
 def is_operand(c):
     return c in '+-*().'
-    
-def is_new_year_operand(s):
-    return s in NEW_YEAR_TOKENS
-    
+
 def is_space(c):
     return ' ' == c
 
