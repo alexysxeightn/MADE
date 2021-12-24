@@ -1,15 +1,46 @@
-NUMBERS = '0123456789'
-OPERANDS = '+-*().'
+def is_digit(c):
+    return 0 <= ord(c) - ord('0') <= 9 
+
+def is_operand(c):
+    return c in '+-*().'
 
 def is_number(s):
     if '0' == s:
         return True
-    if s[0] not in NUMBERS[1:]:
+    if is_digit(s[0]) and ord(s[0]) != ord('0'):
+        for symbol in s[1:]:
+            if not is_digit(symbol):
+                return False
+    else:
         return False
-    for symbol in s[1:]:
-        if symbol not in NUMBERS:
-            return False
     return True
+
+class Token:
+    def __init__(self, token):
+        self.type = None
+        self.subtype = None
+        self.value = token
+        
+        if token in '+-':
+            self.type = 'sum'
+            self.subtype = 'plus' if '+' == token else 'minus'
+ 
+        elif '*' == token:
+            self.type = 'product'
+            self.subtype = 'multiplication'
+    
+        elif token in '()':
+            self.type = 'bracket'
+            self.subtype = 'left_bracket' if '(' == token else 'right_bracket'
+    
+        elif '.' == token:
+            self.type = 'end_token'
+    
+        elif is_number(token):
+            self.type, self.value = 'number', int(token)
+ 
+        else:
+            self.type = 'unknown'
 
 class Lexer:
     def __init__(self, s):
@@ -18,13 +49,13 @@ class Lexer:
         
         num_str = ''
         for symbol in s:
-            if symbol in NUMBERS:
+            if is_digit(symbol):
                 num_str += symbol
-            elif symbol in OPERANDS:
+            elif is_operand(symbol):
                 if num_str:
-                    self.tokens.append(num_str)
+                    self.tokens.append(Token(num_str))
                     num_str = ''
-                self.tokens.append(symbol)
+                self.tokens.append(Token(symbol))
             else:
                 self.flag_of_wrong = True
                 break
@@ -44,34 +75,34 @@ class Parser(Lexer):
     
     def parse_expr(self):
         result = self.parse_sum()
-        while self.cur_token in '+-':
+        while 'sum' == self.cur_token.type:
             c = self.cur_token
             self.next_token()
-            if '+' == c:
-                result = result + self.parse_sum()
+            if 'plus' == c.subtype:
+                result += self.parse_sum()
             else:
-                result = result - self.parse_sum()
+                result -= self.parse_sum()
         return result
             
     def parse_sum(self):
         result = self.parse_product()
-        while '*' == self.cur_token:
+        while 'multiplication' == self.cur_token.subtype:
             self.next_token()
-            result = result * self.parse_product()
+            result *= self.parse_product()
         return result
         
     def parse_product(self):
         
-        if is_number(self.cur_token):
-            number = self.cur_token
+        if 'number' == self.cur_token.type:
+            number = self.cur_token.value
             self.next_token()
-            assert self.cur_token != '('
-            return int(number)
+            assert self.cur_token.subtype != 'left_bracket'
+            return number
             
-        elif '(' == self.cur_token:
+        elif 'left_bracket' == self.cur_token.subtype:
             self.next_token()
             answer = self.parse_expr()
-            assert ')' == self.cur_token
+            assert 'right_bracket' == self.cur_token.subtype
             self.next_token()
             return answer
         
@@ -83,7 +114,7 @@ class Parser(Lexer):
             assert not self.flag_of_wrong
             self.next_token()
             result = self.parse_expr()
-            assert '.' == self.cur_token
+            assert 'end_token' == self.cur_token.type
             return result
         except:
             return 'WRONG'
