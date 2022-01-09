@@ -1,7 +1,7 @@
 # Ссылки на лекции
 
 ## Первый семестр
-* ### Введение в алгоритмы и структуры данных:
+* ### Введение в алгоритмы и структуры данных
     + Сортировки и О-нотация [(2021)](https://youtu.be/tWJcqZ65OP4)
     + Сортировки 2 и порядковые статистики [(2021)](https://youtu.be/YtRorkyHLuI)
     + Алгоритмы поиска [(2021)](https://youtu.be/pH1lwdog3t8)
@@ -18,6 +18,80 @@
     + Базовые алгоритмы на строках [(2021)](https://youtu.be/r7YZjvf7Gko)
     + Грамматики и парсинг [(2021)](https://youtu.be/D7a0OlLCAuo)
     + Базовая вычислительная геометрия [(2021)](https://youtu.be/Gl9hvzN-z_Y)
+
+* ### Машинное обучение
+    + ML Intro. Naive Bayesian Classifier. kNN [(2021)](https://youtu.be/iJTfgqIg9mI)
+    + Linear Regression, Regularization [(2021)](https://youtu.be/I_tN-s44SvY)
+    + Linear Classification [(2021)](https://youtu.be/D5jnytsSdMA)
+    + SVM. PCA [(2021)](https://youtu.be/BsW89yNtCzE)
+    + Decision trees and Ensembles [(2021)](https://youtu.be/GdCKuPFFIJI)
+    + Gradient Boosting [(2021)](https://youtu.be/9-acVlL3av4)
+    + Intro to Deep Learning [(2021)](https://youtu.be/gwlJOnXs0bs)
+    + Optimization and regularization in Deep Learning [(2021)](https://youtu.be/CoO1coK9uG0)
+    + Recurrent Neural Networks and Language Models [(2021)](https://youtu.be/YuifSTK90Yc)
+    + RecSys [(2021)](https://youtu.be/53_Ap1ztNGk)
+    + Unsupervised learning algorithms [(2021)](https://youtu.be/dpoQyg3O0mU)
+    + EM algorithm and additional topics [(2021)](https://youtu.be/O53j4YBN9og)
+
+* ### Advanced C++
+    + Этапы выполнения программы на языках Си и С++. Вопросы управления памятью на языке Си. Простые и составные структуры данных [(2021)](https://youtu.be/2riC0L_1-j8)
+    + Инструментарий С++-разработчика [(2021)](https://youtu.be/Bm2R5VCunsc)
+    + Основы ООП в С++. Объекты, их жизненный цикл и перегрузка операторов [(2021)](https://youtu.be/7v9JXDBff40)
+    + Взаимодействие объектов в С++. Наследование, виртуальные таблицы и динамическая идентификация типов [(2021)](https://youtu.be/bUM3kOub-BU)
+    + Обработка исключительных ситуаций и основы обобщённого программирования на C++ [(2021)](https://youtu.be/rBdgIUm2_fU)
+    + Обзор возможностей библиотеки STL [(2021)](https://youtu.be/Akt8GnkvYVA)
+    + Основы построения межпроцессного и многопоточного взаимодействия с использованием языков Си и C++ [(2021)](https://youtu.be/n7HSnhQ49xQ)
+    + Введение в коллекцию библиотек Boost и обзор возможностей новых стандартов языка C++ [(2021)](https://youtu.be/QE_BsvBTbcg)
+    + Идиоматика C++. C++ как мультипарадигмальный язык. Нововведения C++20 [(2021)](https://youtu.be/5F45YcoQ02s)
+    + Обзор промышленных ML-библиотек на C++ [(2021)](https://youtu.be/1yHOVlRsjWg)
+
+ * ### Advanced Scala
+    + Введение в Scala. Основные конструкции языка [(2021)](https://youtu.be/sQKDoGoPTzA)
+    + ООП в Scala. Pattern matching. Функционалные конструкции. Adt [(2021)](https://youtu.be/uFRxPyUxIm0)
+    + Библиотека колекциий в Scala [(2021)](https://youtu.be/6v8hx-udj84)
+    + Асинхронные операции, обработка исключений, неявные параметры [(2021)](https://youtu.be/GZfcnjF74Rw)
+    + Параметрический полиморфизм. Имплиситы [(2021)](https://youtu.be/FacvHoZDRL4)
+    + Основы функционального программирования. Часть 1 [(2021)](https://youtu.be/w39ckON6Ucw)
+    + Основы функционального программирования. Часть 2 [(2021)](https://youtu.be/sDTG8ds4UsY)
+    + ZIO, TF и основной ФП-стэк в Scala [(2021)](https://youtu.be/EvH_vbqkhbY)
+    + Функциональные стримы на примере fs2, работа с бд [(2021)](https://youtu.be/PDwhqkkR_W8)
+    + Акторы в Scala [(2021)](https://youtu.be/BVs_O0EE2KQ)
+
+* ### Математическая статистика
+    + Одномерные распределения: от дискретных к непрерывным [(2021)](https://youtu.be/DQnHcKPSaxo)
+    + Одномерные распределения: производные от гауссовского [(2021)](https://youtu.be/flH19HHyo_Q)
+    + Многомерные распределения: корреляции [(2021)](https://youtu.be/mvmruhuFvEc)
+    + Определение распределений и их параметров [(2021)](https://youtu.be/yjr8_dXjIOw)
+    + Регрессионные модели и выбор наилучшей [(2021)](https://youtu.be/RJIg84zUctw)
+    + Модели дискретного выбора [(2021)](https://youtu.be/rBYq1QfeDzo)
+    + Моделирование ошибок в данных 1 [(2021)](https://youtu.be/T7TIG9NtDmk)
+    + Моделирование ошибок в данных 2 [(2021)](https://youtu.be/UdXjg0C-r8g)
+    + Моделирование ошибок в данных 3 [(2021)](https://youtu.be/zx45goDZHAI)
+    + Взаимосвязь и причинность [(2021)](https://youtu.be/QC4ye1K-Lcs)
+
+* ### Язык запросов к данным
+    + Реляционная алгебра [(2021)](https://youtu.be/kLrKG33ECMU)
+    + Реляционное (логическое) исчисление [(2021)](https://youtu.be/2GEwwngba14)
+    + Введение в SQL [(2021)](https://youtu.be/U_MiKMHLwOU)
+    + Продвинутый SQL [(2021)](https://youtu.be/sipTlKbWx4s)
+    + Устройство баз данных индексы и структуры данных [(2021)](https://youtu.be/i5jEiWfVRiw)
+    + Pandas, scipy, numpy: basics [(2021)](https://youtu.be/QroOcVbVe7g)
+    + Pandas, scipy, numpy [(2021)](https://youtu.be/u9lYt_aW1nM)
+    + Добиваем задачи по pandas vs SQL и переходим к Pyspark -- изучаем работу с big data [(2021)](https://youtu.be/r-PYQ8iifgk)
+    + Данные в сети: парсим JSON с jq, bash/zsh scripting, включая R scripts [(2021)](https://youtu.be/188PiIKhQNk)
+    + Логические языки запросов, Answer Set Programming и Knowledge Graph в Wikidata [(2021)](https://youtu.be/6SUpDwTDRV0)
+
+* ### Интерпретируемый ИИ и майнинг данных (1-3 семестр)
+    + Введение [(2021)](https://youtu.be/j87X-l-C94g)
+    + Майнинг паттернов [(2021)](https://youtu.be/grmJqC5czSU)
+    + Причинно-следственные связи. Методы объяснения деревьев на основе правил [(2021)](https://youtu.be/ha7JhvlJfs0)
+    + LIME, SHAP и другие модели на основе вектора Шепли [(2021)](https://youtu.be/fSWaC1TMlzw)
+    + Методы объяснения на основе контрфактуальные и состязательных примеров. Введение в tensforflow 2. [(2021)](https://youtu.be/MZGODg4QaRI)
+    + Методы объяснения нейронных сетей (визуализация слоев, Gradients, DeconvNet, Guided BackPropagation) [(2021)](https://youtu.be/-lEGb5i13Cw)
+    + Методы объяснения нейронных сетей, продолжение (LRP,  DeepTaylor, PatternNet, PatternAttribution) [(2021)](https://youtu.be/b4dT9Vi1ojs)
+    + Методы объяснения нейронных сетей, продолжение (DeepLIFT, IntegratedGradients, SmoothGrad и GradCAM) [(2021)](https://youtu.be/a6f3hUw4bjw)
+    + Разработка интерпретируемых генеративных сетей (InfoGAN, beta-VAE) [(2021)](https://youtu.be/3hgMQdg8yVM)
+    + Защита проектов [(2021)](https://youtu.be/eV2TjFh88Oc)
 
 ## Второй семестр
 * ### Машинное обучение на графах и анализ социальных сетей
