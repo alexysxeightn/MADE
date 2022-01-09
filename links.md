@@ -81,7 +81,7 @@
     + Данные в сети: парсим JSON с jq, bash/zsh scripting, включая R scripts [(2021)](https://youtu.be/188PiIKhQNk)
     + Логические языки запросов, Answer Set Programming и Knowledge Graph в Wikidata [(2021)](https://youtu.be/6SUpDwTDRV0)
 
-* ### Интерпретируемый ИИ и майнинг данных (1-3 семестр)
+* ### Интерпретируемый ИИ и майнинг данных (1 и 3 семестр)
     + Введение [(2021)](https://youtu.be/j87X-l-C94g)
     + Майнинг паттернов [(2021)](https://youtu.be/grmJqC5czSU)
     + Причинно-следственные связи. Методы объяснения деревьев на основе правил [(2021)](https://youtu.be/ha7JhvlJfs0)
@@ -215,3 +215,18 @@
     + Recap. Bias/Variance. Train/Val/Test. Inference speedup. Pytorch Lightning. Optuna. [(2021)](https://youtu.be/iFJ7wfq0BuM)
     + Рекуррентные архитектуры, работа с памятью (+ RNN dropout, layernorm). [(2021)](https://youtu.be/fYSeSeVGFpk)
     + General recap & overview. Memory in LSTM/GRU [(2021)](https://youtu.be/tn5aEG9SFBQ)
+
+## 3 семестр
+* ### Продвинутое глубокое обучение и обучение с подкреплением
+    + Обучение с подкреплением: введение [(2021)](https://youtu.be/G8JyeYn0pVI)
+    + Марквские процессы принятия решений (MDP) [(2021)](https://youtu.be/h_FVLWIOfpg)
+    + Методы Монте-Карло, on-policy и off-police обучение [(2021)](https://youtu.be/WbIiHwktijQ)
+    + Policy gradient, алгоритм REINFORCE [(2021)](https://youtu.be/e3WoVelevT8)
+    + Естественный градиент [(2021)](https://youtu.be/31j_9LTRks4)
+    + От AlphaGo через AlphaZero и MuZero [(2021)](https://youtu.be/HU-9AylhPNQ)
+    + Современные примеры применений RL [(2021)](https://youtu.be/CytHYkJ6HdE)
+    + Таксономия порождающих моделей в глубоком обучении. [(2021)](https://youtu.be/v2-E8QofIkw)
+    + Нормализующие потоки (normalizing flows) [(2021)](https://youtu.be/mkeJJs054Gg)
+    + Порождающие соперничающие сети (GAN) [(2021)](https://youtu.be/1aG6YM57vR8)
+    + Условные GAN’ы [(2021)](https://youtu.be/I55_3s9Ka-U)
+    + GAN’ы для дискретных объектов [(2021)](https://youtu.be/fzAAt9T-G4c)
