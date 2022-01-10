@@ -2,6 +2,8 @@
 
 [![MADE](https://hsto.org/webt/uc/si/yy/ucsiyy0kdfx4arzzrcgayur751m.png)](https://data.vk.company/)
 
+## [Ссылки на лекции](./links.md)
+
 ## Первый семестр
 * ### Алгоритмы и структуры данных
     + [ДЗ 1 (Сортировки и О-нотация)](./algo/hw1)
@@ -39,3 +41,5 @@
     + [ДЗ 5 (NN from scratch)](./ml/hw5.ipynb)
 * ### Математическая статистика
     + [ДЗ 1](./math_stat/hw1.ipynb)
+
+## Второй семестр
