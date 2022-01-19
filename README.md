@@ -28,15 +28,18 @@
 [Бонус (мои мемы с конкурса)](./algo/memes/README.md)
 
 * ### Промышленная разработка на python
-    + [ДЗ 1 (pytest)](./python/hw1)
-    + [ДЗ 2 (CLI, argparse)](./python/hw2)
-    + [ДЗ 3 (Кодировки, pytest:capsys)](./python/hw3)
-    + [ДЗ 4 (Логирование в Python, YAML)](./python/hw4)
-    + [ДЗ 5 (Mock внешних зависимостей)](./python/hw5)
-    + [ДЗ 6 (Web Spy)](./python/hw6)
-    + [ДЗ 7 (Decorator Design Pattern)](./python/hw7) 
-    + [ДЗ 8 (Asset Web Service)](./python/hw8)
-    + [ДЗ 9 (Web Service Logs)](./python/hw9)
+| Номер дз | Тема                                  | Условия и решения                |
+|----------|---------------------------------------|----------------------------------|
+| 1        | pytest                                | [Решение](./python/hw1)          |
+| 2        | CLI, argparse                         | [Решение](./python/hw2)          |
+| 3        | Кодировки, pytest:capsys              | [Решение](./python/hw3)          |
+| 4        | Логирование в Python, YAML            | [Решение](./python/hw4)          |
+| 5        | Mock внешних зависимостей             | [Решение](./python/hw5)          |
+| 6        | Web Spy                               | [Решение](./python/hw6)          |
+| 7        | Decorator Design Pattern              | [Решение](./python/hw7)          |
+| 8        | Asset Web Service                     | [Решение](./python/hw8)          |
+| 9        | Web Service Logs                      | [Решение](./python/hw9)          |
+
 * ### Машинное обучение
     + [Лабораторная работа 1 (ml_pipeline & SVM)](./ml/lab1)
     + [Лабораторная работа 2 (Deep learning)](./ml/lab2)
