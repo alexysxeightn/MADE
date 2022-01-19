@@ -30,15 +30,15 @@
 * ### Промышленная разработка на python
 | Номер дз | Тема                                  | Условия и решения                |
 |----------|---------------------------------------|----------------------------------|
-| 1        | pytest                                | [Решение](./python/hw1)          |
-| 2        | CLI, argparse                         | [Решение](./python/hw2)          |
-| 3        | Кодировки, pytest:capsys              | [Решение](./python/hw3)          |
-| 4        | Логирование в Python, YAML            | [Решение](./python/hw4)          |
-| 5        | Mock внешних зависимостей             | [Решение](./python/hw5)          |
-| 6        | Web Spy                               | [Решение](./python/hw6)          |
-| 7        | Decorator Design Pattern              | [Решение](./python/hw7)          |
-| 8        | Asset Web Service                     | [Решение](./python/hw8)          |
-| 9        | Web Service Logs                      | [Решение](./python/hw9)          |
+| 1        | pytest                                | [Условия и решение](./python/hw1)|
+| 2        | CLI, argparse                         | [Условия и решение](./python/hw2)|
+| 3        | Кодировки, pytest:capsys              | [Условия и решение](./python/hw3)|
+| 4        | Логирование в Python, YAML            | [Условия и решение](./python/hw4)|
+| 5        | Mock внешних зависимостей             | [Условия и решение](./python/hw5)|
+| 6        | Web Spy                               | [Условия и решение](./python/hw6)|
+| 7        | Decorator Design Pattern              | [Условия и решение](./python/hw7)|
+| 8        | Asset Web Service                     | [Условия и решение](./python/hw8)|
+| 9        | Web Service Logs                      | [Условия и решение](./python/hw9)|
 
 * ### Машинное обучение
     + [Лабораторная работа 1 (ml_pipeline & SVM)](./ml/lab1)
