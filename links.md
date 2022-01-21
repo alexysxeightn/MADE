@@ -95,7 +95,7 @@
 
 ## Второй семестр
 * ### Машинное обучение на графах и анализ социальных сетей
-    + Введение в сетевой анализ [(2021)](https://youtu.be/Ja1XMaPd79Y)
+    + Введение в сетевой анализ [(2021)](https://youtu.be/Ja1XMaPd79Y) [(2022)](https://youtu.be/tVPNVcAQEnE)
     + Модели формирования сетей [(2021)](https://youtu.be/GfqjpJ1QEPU)
     + Анализ вершин и связей [(2021)](https://youtu.be/lAekNVhJY04)
     + Престиж и структурная схожесть в сетях [(2021)](https://youtu.be/RKcaZvfO4EE)
@@ -208,7 +208,7 @@
     + Дополнительная лекция (тематическое моделирование) [(2021)](https://youtu.be/_ZqINptnJxw)
 
 * ### Основы глубокого обучения
-    + DL введение, нейрон, cross-entropу, градиентный спуск. Numpy GD logreg [(2021)](https://youtu.be/WiFQF8sTxko)
+    + DL введение, нейрон, cross-entropу, градиентный спуск. Numpy GD logreg [(2021)](https://youtu.be/WiFQF8sTxko) [(2022)](https://youtu.be/K3p7XqFUXQs)
     + FC-сеть, backprop, SGD, производные по матрицам. Numpy Backprop SGD FC. [(2021)](https://youtu.be/OUsKEHaOLtE)
     + Методы оптимизации в глубоком обучении [(2021)](https://youtu.be/D_gZEeTw_m8)
     + Свертки и сверточные нейронные сети. PyTorch CNN. [(2021)](https://youtu.be/alHypNTzFfE)
