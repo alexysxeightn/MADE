@@ -62,3 +62,4 @@
 |----------|-----------------------------------------------|--------------------------------------------|
 | 1        | Introduction to network science and power law | [Условия и решение](./sna_n_mlg/hw1.ipynb) |
 | 2        | Generative network models                     | [Условия и решение](./sna_n_mlg/hw2.ipynb) |
+| 3        | Node centrality measures                      | [Условия и решение](./sna_n_mlg/hw3.ipynb) |
