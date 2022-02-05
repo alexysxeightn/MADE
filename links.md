@@ -96,8 +96,8 @@
 ## Второй семестр
 * ### Машинное обучение на графах и анализ социальных сетей
     + Введение в сетевой анализ [(2021)](https://youtu.be/Ja1XMaPd79Y) [(2022)](https://youtu.be/tVPNVcAQEnE)
-    + Модели формирования сетей [(2021)](https://youtu.be/GfqjpJ1QEPU)
-    + Анализ вершин и связей [(2021)](https://youtu.be/lAekNVhJY04)
+    + Модели формирования сетей [(2021)](https://youtu.be/GfqjpJ1QEPU) [(2022)](https://youtu.be/iOQOempXhXI)
+    + Анализ вершин и связей [(2021)](https://youtu.be/lAekNVhJY04) [(2022)](https://youtu.be/PnHks3amPxY)
     + Престиж и структурная схожесть в сетях [(2021)](https://youtu.be/RKcaZvfO4EE)
     + Сообщества в сетях [(2021)](https://youtu.be/UjF0g0iVn_w)
     + Диффузии и случайные блуждания на графах. Моделирование эпидемий [(2021)](https://youtu.be/9uCFMR3LB9Q)
@@ -194,7 +194,7 @@
    
 * ### Продвинутое машинное обучение
     + Основы байесовского вывода в машинном обучении: сопряжённые априорные распределения и полный анализ обычной монетки. [(2021)](https://youtu.be/wwDYF3EcuKM) [(2022)](https://youtu.be/Zcu5vtaDhQE)
-    + Байесовский анализ линейной регрессии: от метода наименьших квадратов до баейсовских предсказаний. Байесовская оптимизация гиперпараметров. [(2021)](https://youtu.be/OPAcUcp7yM8)
+    + Байесовский анализ линейной регрессии: от метода наименьших квадратов до баейсовских предсказаний. Байесовская оптимизация гиперпараметров. [(2021)](https://youtu.be/OPAcUcp7yM8) [(2022)](https://youtu.be/-EJCvMonrD4)
     + Статистическая теория принятия решений и основы классификации. [(2021)](https://youtu.be/sE_8zeR4ZeM)
     + Модельный и байесовский подходы к классификации: откуда берётся логистическая регрессия. [(2021)](https://youtu.be/pGlwg4aT2dE)
     + Метод опорных векторов. [(2021)](https://youtu.be/9NUY2EPWMg0)
@@ -209,8 +209,8 @@
 
 * ### Основы глубокого обучения
     + DL введение, нейрон, cross-entropу, градиентный спуск. Numpy GD logreg [(2021)](https://youtu.be/WiFQF8sTxko) [(2022)](https://youtu.be/K3p7XqFUXQs)
-    + FC-сеть, backprop, SGD, производные по матрицам. Numpy Backprop SGD FC. [(2021)](https://youtu.be/OUsKEHaOLtE)
-    + Методы оптимизации в глубоком обучении [(2021)](https://youtu.be/D_gZEeTw_m8)
+    + FC-сеть, backprop, SGD, производные по матрицам. Numpy Backprop SGD FC. [(2021)](https://youtu.be/OUsKEHaOLtE) [(2022)](https://youtu.be/OmMjyS1y3TU)
+    + Методы оптимизации в глубоком обучении [(2021)](https://youtu.be/D_gZEeTw_m8) [(2022)](https://youtu.be/C51gQ-AkjNE)
     + Свертки и сверточные нейронные сети. PyTorch CNN. [(2021)](https://youtu.be/alHypNTzFfE)
     + Recap. Bias/Variance. Train/Val/Test. Inference speedup. Pytorch Lightning. Optuna. [(2021)](https://youtu.be/iFJ7wfq0BuM)
     + Рекуррентные архитектуры, работа с памятью (+ RNN dropout, layernorm). [(2021)](https://youtu.be/fYSeSeVGFpk)
