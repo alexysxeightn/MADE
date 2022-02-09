@@ -64,3 +64,9 @@
 | HW 1          | Introduction to network science and power law | [Условия и решение](./sna_n_mlg/hw1.ipynb)          |
 | HW 2          | Generative network models                     | [Условия и решение](./sna_n_mlg/hw2.ipynb)          |
 | HW 3          | Node centrality measures                      | [Условия и решение](./sna_n_mlg/hw3.ipynb)          | 
+
+### Продвинутое машинное обучение
+
+| Номер дз |Условия и решения                                   |
+|----------|-----------------------------------------------------|
+| HW 1     | [Условия и решение](./adv_ml/hw1.ipynb) |
