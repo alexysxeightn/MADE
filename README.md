@@ -65,9 +65,10 @@
 | HW 2          | Generative network models                     | [Условия и решение](./sna_n_mlg/hw2.ipynb)          |
 | HW 3          | Node centrality measures                      | [Условия и решение](./sna_n_mlg/hw3.ipynb)          | 
 | HW 4          | Link analysis and structure properties        | [Условия и решение](./sna_n_mlg/hw4.ipynb)          | 
+| HW 5          | Community detection                           | [Условия и решение](./sna_n_mlg/hw5.ipynb)          |
 
 ### Продвинутое машинное обучение
 
-| Номер дз |Условия и решения                                                                                                                        |
-|----------|-----------------------------------------------------------------------------------------------------------------------------------------|
-| HW 1     | [Условия и решение](./adv_ml/hw1.ipynb) [(Colab)](https://colab.research.google.com/drive/1mkO9KqDji-fUd2EvCBvETa4GBd5vqyvs?usp=sharing)|
+| Номер дз |Тема                                                             |Условия и решения                                                                                                                        |
+|----------|-----------------------------------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------|
+| HW 1     |Теорема Байеса и линейная регрессия: что делать с коронавирусом? | [Условия и решение](./adv_ml/hw1.ipynb) [(Colab)](https://colab.research.google.com/drive/1mkO9KqDji-fUd2EvCBvETa4GBd5vqyvs?usp=sharing)|
