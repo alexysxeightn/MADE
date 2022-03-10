@@ -98,11 +98,11 @@
     + Введение в сетевой анализ [(2021)](https://youtu.be/Ja1XMaPd79Y) [(2022)](https://youtu.be/tVPNVcAQEnE)
     + Модели формирования сетей [(2021)](https://youtu.be/GfqjpJ1QEPU) [(2022)](https://youtu.be/iOQOempXhXI)
     + Анализ вершин и связей [(2021)](https://youtu.be/lAekNVhJY04) [(2022)](https://youtu.be/PnHks3amPxY)
-    + Престиж и структурная схожесть в сетях [(2021)](https://youtu.be/RKcaZvfO4EE)
-    + Сообщества в сетях [(2021)](https://youtu.be/UjF0g0iVn_w)
-    + Диффузии и случайные блуждания на графах. Моделирование эпидемий [(2021)](https://youtu.be/9uCFMR3LB9Q)
+    + Престиж и структурная схожесть в сетях [(2021)](https://youtu.be/RKcaZvfO4EE) [(2022)](https://youtu.be/kP8MBHZCk8c)
+    + Сообщества в сетях [(2021)](https://youtu.be/UjF0g0iVn_w) [(2022)](https://youtu.be/qJK8joWYJ_M)
+    + Диффузии и случайные блуждания на графах. Моделирование эпидемий [(2021)](https://youtu.be/9uCFMR3LB9Q) [(2022)](https://youtu.be/-X_WTHeHGgQ)
     + Распространение влияния и диффузия инноваций [(2021)](https://youtu.be/Go4mcrlQ1ao)
-    + Модели классификации вершин графа. Векторизация вершин для задачи классификации [(2021)](https://youtu.be/S7cJDN0gBcA)
+    + Модели классификации вершин графа. Векторизация вершин для задачи классификации [(2021)](https://youtu.be/S7cJDN0gBcA) [(2022)](https://youtu.be/yvAyKCycJ_g)
     + Модели предсказания связей в графе. Векторизация ребер графа для задачи классификации [(2021)](https://youtu.be/qWcy10AKnqQ)
     + Модели векторизации сетей на основе случайных блужданий. Обучение без учителя на графах [(2021)](https://youtu.be/aVvb1t9yduY)
     + Графовые нейронные сети [(2021)](https://youtu.be/nMWb-QlRQW4)
@@ -113,7 +113,7 @@
     + Разбор соревнования Link Prediction [(2021)](https://youtu.be/ds0WbMJQ4Zc)
  
 * ### Обработка речевых сигналов
-    + Основы цифровой обработки сигналов [(2021)](https://youtu.be/RS4iK1zU7w4)
+    + Основы цифровой обработки сигналов [(2021)](https://youtu.be/RS4iK1zU7w4) [(2022)](https://youtu.be/FlVO4-REogg)
     + Представление сигналов в спектральной области [(2021)](https://youtu.be/OdmLyM0XRwA)
     + Цифровые фильтры. Цифровая обработка сигналов и машинное обучение [(2021)](https://youtu.be/NoB1nJrK0Dk)
     + Введение в ASR. Типы систем. WER. Сравнение с эталоном. DTW. [(2021)](https://youtu.be/ziWNTI7GTxg)
@@ -159,8 +159,8 @@
     + Разбор второго домашнего задания и подведение итогов [(2021)](https://youtu.be/RTbj7mSjlI0)
 
 * ### Методы оптимизации в машинном обучении
-    + Понятие о численных методах оптимизации. [(2021)](https://youtu.be/kQsHS8YHXtE)
-    + Матрично-векторное дифференцирование. Субдифференциал. [(2021)](https://youtu.be/_1lenUst3j4)
+    + Понятие о численных методах оптимизации. [(2021)](https://youtu.be/kQsHS8YHXtE) [(2022)](https://youtu.be/G9Uh9_d-fh0)
+    + Матрично-векторное дифференцирование. Субдифференциал. [(2021)](https://youtu.be/_1lenUst3j4) [(2022)](https://youtu.be/ZmOsAnebUns)
     + Связь оптимизации и анализа данных, статистики [(2021)](https://youtu.be/OrTy2aLeIx4)
     + Линейная регрессия, логистическая регрессия, SVM: как решать такие задачи и не только? [(2021)](https://youtu.be/UnlELqHDhfY)
     + Двойственность и SVM. Задачи с регуляризацией. [(2021)](https://youtu.be/uoFx0oYM5s4)
@@ -195,10 +195,10 @@
 * ### Продвинутое машинное обучение
     + Основы байесовского вывода в машинном обучении: сопряжённые априорные распределения и полный анализ обычной монетки. [(2021)](https://youtu.be/wwDYF3EcuKM) [(2022)](https://youtu.be/Zcu5vtaDhQE)
     + Байесовский анализ линейной регрессии: от метода наименьших квадратов до баейсовских предсказаний. Байесовская оптимизация гиперпараметров. [(2021)](https://youtu.be/OPAcUcp7yM8) [(2022)](https://youtu.be/-EJCvMonrD4)
-    + Статистическая теория принятия решений и основы классификации. [(2021)](https://youtu.be/sE_8zeR4ZeM)
-    + Модельный и байесовский подходы к классификации: откуда берётся логистическая регрессия. [(2021)](https://youtu.be/pGlwg4aT2dE)
-    + Метод опорных векторов. [(2021)](https://youtu.be/9NUY2EPWMg0)
-    + EM-алгоритм: суть, вывод, применения. [(2021)](https://youtu.be/CF4QC8Oezm0)
+    + Статистическая теория принятия решений и основы классификации. [(2021)](https://youtu.be/sE_8zeR4ZeM) [(2022)](https://youtu.be/tIiZyicURWg)
+    + Модельный и байесовский подходы к классификации: откуда берётся логистическая регрессия. [(2021)](https://youtu.be/pGlwg4aT2dE) [(2022)](https://youtu.be/Jod2H8aiNbI)
+    + Метод опорных векторов. [(2021)](https://youtu.be/9NUY2EPWMg0) [(2022)](https://youtu.be/UoUcJHW1s6A)
+    + EM-алгоритм: суть, вывод, применения. [(2021)](https://youtu.be/CF4QC8Oezm0) [(2022)](https://youtu.be/0HwjBANbR5k)
     + EM-алгоритм II [(2021)](https://youtu.be/bgWzu6l29Qo)
     + Скрытые марковские модели [(2021)](https://youtu.be/28k32WU2FeI)
     + Вероятностные графические модели: введение. [(2021)](https://youtu.be/8AFZBadNPKs)
@@ -211,10 +211,10 @@
     + DL введение, нейрон, cross-entropу, градиентный спуск. Numpy GD logreg [(2021)](https://youtu.be/WiFQF8sTxko) [(2022)](https://youtu.be/K3p7XqFUXQs)
     + FC-сеть, backprop, SGD, производные по матрицам. Numpy Backprop SGD FC. [(2021)](https://youtu.be/OUsKEHaOLtE) [(2022)](https://youtu.be/OmMjyS1y3TU)
     + Методы оптимизации в глубоком обучении [(2021)](https://youtu.be/D_gZEeTw_m8) [(2022)](https://youtu.be/C51gQ-AkjNE)
-    + Свертки и сверточные нейронные сети. PyTorch CNN. [(2021)](https://youtu.be/alHypNTzFfE)
-    + Recap. Bias/Variance. Train/Val/Test. Inference speedup. Pytorch Lightning. Optuna. [(2021)](https://youtu.be/iFJ7wfq0BuM)
-    + Рекуррентные архитектуры, работа с памятью (+ RNN dropout, layernorm). [(2021)](https://youtu.be/fYSeSeVGFpk)
-    + General recap & overview. Memory in LSTM/GRU [(2021)](https://youtu.be/tn5aEG9SFBQ)
+    + Свертки и сверточные нейронные сети. PyTorch CNN. [(2021)](https://youtu.be/alHypNTzFfE) [(2022)](https://youtu.be/UBREiw69zX0)
+    + Recap. Bias/Variance. Train/Val/Test. Inference speedup. Pytorch Lightning. Optuna. [(2021)](https://youtu.be/iFJ7wfq0BuM) [(2022)](https://youtu.be/_SGrqZcTfhU)
+    + Рекуррентные архитектуры, работа с памятью (+ RNN dropout, layernorm). [(2021)](https://youtu.be/fYSeSeVGFpk) [(2022)](https://youtu.be/A_xTs3vsjTQ)
+    + General recap & overview. Memory in LSTM/GRU [(2021)](https://youtu.be/tn5aEG9SFBQ) [(2022)](https://youtu.be/l_2wMCVxLvY)
 
 ## Третий семестр
 * ### Продвинутое глубокое обучение и обучение с подкреплением
