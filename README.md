@@ -68,7 +68,8 @@
 | HW 4          | Link analysis and structure properties        | [Условия и решение](./sna_n_mlg/hw4.ipynb)          | 
 | HW 5          | Community detection                           | [Условия и решение](./sna_n_mlg/hw5.ipynb)          | 
 | HW 6          | Diffusions and epidemics on networks          | [Условия и решение](./sna_n_mlg/hw6.ipynb)          | 
-| HW 7          | Node classification                           | [Условия и решение](./sna_n_mlg/hw7.ipynb)          |
+| HW 7          | Node classification                           | [Условия и решение](./sna_n_mlg/hw7.ipynb)          | 
+| HW 8          | Link prediction                               | [Условия и решение](./sna_n_mlg/hw8.ipynb)          |
 
 ### Продвинутое машинное обучение
 
