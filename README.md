@@ -84,3 +84,4 @@
 | Test 1   | [Условия и решение](./omml/test1.ipynb)|
 | Test 2   | [Условия и решение](./omml/test2.pdf)  |
 | Test 3   | [Условия и решение](./omml/test3.pdf)  |
+| Test 4   | [Условия и решение](./omml/test4.pdf)  |
