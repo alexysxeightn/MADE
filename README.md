@@ -70,7 +70,8 @@
 | HW 6          | Diffusions and epidemics on networks          | [Условия и решение](./sna_n_mlg/hw6.ipynb)          | 
 | HW 7          | Node classification                           | [Условия и решение](./sna_n_mlg/hw7.ipynb)          | 
 | HW 8          | Link prediction                               | [Условия и решение](./sna_n_mlg/hw8.ipynb)          | 
-| HW 9          | Node embedding                                | [Условия и решение](./sna_n_mlg/hw9.ipynb)          |
+| HW 9          | Node embedding                                | [Условия и решение](./sna_n_mlg/hw9.ipynb)          | 
+| HW 10         | Graph neural networks                         | [Условия и решение](./sna_n_mlg/hw10.ipynb)         |
 
 ### Продвинутое машинное обучение
 
