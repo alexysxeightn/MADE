@@ -1,0 +1,68 @@
+beginner.how_many_items_in_hdfs:
+    stdin: 9
+intermediate.hdfs_list_recursively:
+    stdin: hdfs dfs -ls -R /data/wiki
+intermediate.hdfs_list_recursively_human_readable:
+    stdin: hdfs dfs -ls -R -h /data/wiki
+intermediate.hdfs_file_replication_factor:
+    stdin: 3
+intermediate.hdfs_folder_replication_factor:
+    stdin: 0
+intermediate.hdfs_describe_size:
+    stdin: actual
+intermediate.hdfs_cumulative_size:
+    stdin: hdfs dfs -du -s -h /data/wiki
+intermediate.hdfs_create_folder:
+    stdin: hdfs dfs -mkdir alexysxeightn
+intermediate.hdfs_create_nested_folder:
+    stdin: hdfs dfs -mkdir -p alexysxeightn_folder1/folder_2/folder_3
+intermediate.hdfs_remove_nested_folders:
+    stdin: hdfs dfs -rm -R alexysxeightn_folder1
+intermediate.hdfs_trash_behavior:
+    # Trash - это директория, куда помещаются удалённые файлы
+    stdin: hdfs dfs -rm -R -skipTrash
+intermediate.hdfs_create_empty_file:
+    stdin: hdfs dfs -touchz empty_file
+intermediate.hdfs_create_small_file:
+    stdin: hdfs dfs -put alexysxeightn/local_fs_file.txt alexysxeightn
+intermediate.hdfs_output_file:
+    stdin: hdfs dfs -cat alexysxeightn/local_fs_file.txt
+intermediate.hdfs_output_file_end:
+    stdin: hdfs dfs -tail alexysxeightn/local_fs_file.txt
+intermediate.hdfs_output_file_start:
+    stdin: hdfs dfs -cat alexysxeightn/local_fs_file.txt | head
+intermediate.hdfs_tail_vs_unix_tail:
+    # hdfs tail выводит последний 1Кб данных из файла
+    # unix tail выводит последние 10 строк из файла (без доп аргументов)
+    stdin: hdfs dfs -cat alexysxeightn/local_fs_file.txt | tail -c 1024
+intermediate.hdfs_copy_file:
+    stdin: hdfs dfs -cp alexysxeightn/local_fs_file.txt alexysxeightn/copy_file.txt
+intermediate.hdfs_move_file:
+    stdin: hdfs dfs -mv alexysxeightn/local_fs_file.txt alexysxeightn/folder_for_moved_file
+intermediate.hdfs_download_and_concatenate:
+    stdin: hdfs dfs -getmerge alexysxeightn/folder_for_moved_file/local_fs_file.txt alexysxeightn/copy_file.txt alexysxeightn/merge_file.txt
+advanced.hdfs_set_file_replication:
+    stdin: hdfs dfs -setrep -w 2 alexysxeightn/copy_file.txt
+advanced.hdfs_get_files_and_block:
+    stdin: hdfs fsck alexysxeightn/copy_file.txt -files -blocks -locations
+advanced.hdfs_get_block_information:
+    stdin: hdfs fsck -blockId blk_1106586940
+advanced.hdfs_dfs_architecture:
+    stdin: |-
+        sudo -i -u hdfsuser
+        ssh brain-node1.bigdatateam.org
+        find /srv/disk1/hadoop/datanode -name blk_1106586940
+        cat /srv/disk1/hadoop/datanode/current/BP-981064612-78.46.171.101-1581506447497/current/finalized/subdir21/subdir13/blk_1106586940
+        hdfs dfs -ls -R /data/namenode_example/
+        hdfs dfs -cat /data/namenode_example/current/fsimage_0000000000030725661 | head -3
+        hdfs dfs -cat /data/namenode_example/current/edits_0000000000029536578-0000000000030039785 | head -3
+advanced.webhdfs_read_100B:
+    stdin: curl "http://brain-master:50070/webhdfs/v1/user/bd_made2022q2/alexysxeightn/copy_file.txt?op=OPEN&length=100"
+advanced.webhdfs_curl_follow_redirects:
+    stdin: curl -L "http://brain-master:50070/webhdfs/v1/user/bd_made2022q2/alexysxeightn/copy_file.txt?op=OPEN&length=100"
+advanced.webhdfs_get_file_detailed_information:
+    stdin: curl "http://brain-master:50070/webhdfs/v1/user/bd_made2022q2/alexysxeightn/copy_file.txt?op=GETFILESTATUS&length=100"
+advanced.webhdfs_change_file_replication:
+    stdin: curl -i -X PUT "http://brain-master:50070/webhdfs/v1/user/bd_made2022q2/alexysxeightn/copy_file.txt?op=SETREPLICATION&replication=4&user.name=bd_made2022q2&length=100"
+advanced.webhdfs_append_to_file:
+    stdin: curl -i -X POST -T alexysxeightn/appended_file.txt "http://brain-node1.bigdatateam.org:50075/webhdfs/v1/user/bd_made2022q2/alexysxeightn/copy_file.txt?op=APPEND&user.name=bd_made2022q2&namenoderpcaddress=brain-master.bigdatateam.org:8020&buffersize=15"
