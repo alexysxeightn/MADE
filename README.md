@@ -64,6 +64,7 @@
 |---------------|-----------------------------------------------|-----------------------------------------------------|
 | Competition 1 | Network Generation                            | [Условия и решение](./sna_n_mlg/competition1.ipynb) |
 | Competition 2 | Marketing Campaign                            | [Условия и решение](./sna_n_mlg/competition2.ipynb) |
+| Competition 3 | Link Prediction                               | [Условия и решение](./sna_n_mlg/competition3.ipynb) |
 | HW 1          | Introduction to network science and power law | [Условия и решение](./sna_n_mlg/hw1.ipynb)          |
 | HW 2          | Generative network models                     | [Условия и решение](./sna_n_mlg/hw2.ipynb)          |
 | HW 3          | Node centrality measures                      | [Условия и решение](./sna_n_mlg/hw3.ipynb)          | 
