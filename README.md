@@ -122,3 +122,4 @@
 | HW 1     | HDFS                              | [Условия и решение](./big_data/hw1) |
 | HW 2     | MapReduce                         | [Условия и решение](./big_data/hw2) |
 | HW 3     | MapReduce-advanced(Stackoverflow) | [Условия и решение](./big_data/hw3) |
+| HW 4     | Hive                              | [Условия и решение](./big_data/hw4) |
