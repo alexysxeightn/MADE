@@ -125,3 +125,4 @@
 | HW 2     | MapReduce                         | [Условия и решение](./big_data/hw2) |
 | HW 3     | MapReduce-advanced(Stackoverflow) | [Условия и решение](./big_data/hw3) |
 | HW 4     | Hive                              | [Условия и решение](./big_data/hw4) |
+| HW 5     | Spark RDD                         | [Условия и решение](./big_data/hw5) |
