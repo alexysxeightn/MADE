@@ -1,0 +1,30 @@
+defaults:
+  - _self_
+  - features: default
+  - model: logistic_regression
+  - preprocessing: one_hot_transformer
+  - split: default
+  - override hydra/job_logging: colorlog
+  - override hydra/hydra_logging: colorlog
+          
+save_output: true
+
+metric: [accuracy, f1-score]
+metric_path: artifacts/train/${model.model_type}/metrics.json
+
+report_path: reports/EDA_pandas_profiling.html
+
+input_data_path: data/raw/heart_cleveland_upload.csv
+output_model_path: artifacts/train/${model.model_type}/model.pkl
+output_transformer_path: artifacts/train/${model.model_type}/transformer.pkl
+
+hydra:
+    run:
+      dir: artifacts/train/${model.model_type}/
+    sweep:
+      dir: artifacts/train/${model.model_type}/
+      subdir: ${hydra.job.override_dirname}
+    job_logging:
+      handlers:
+        file:
+          mode: 'w'

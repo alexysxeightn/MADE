@@ -1,0 +1,55 @@
+all_features:
+  - "sex"
+  - "cp"
+  - "fbs"
+  - "restecg"
+  - "exang"
+  - "slope"
+  - "ca"
+  - "thal"
+  - "oldpeak"
+  - "age"
+  - "trestbps"
+  - "thalach"
+  - "chol"
+numerical_features:
+  - name: "age"
+    type: discrete
+    min: 29
+    max: 77
+  - name: "trestbps"
+    type: discrete
+    min: 94
+    max: 200
+  - name: "chol"
+    type: discrete
+    min: 126
+    max: 564
+  - name: "thalach"
+    type: discrete
+    min: 71
+    max: 202
+  - name: "oldpeak"
+    type: continuous
+    min: 0
+    max: 6.2
+categorical_features:
+  - name: "sex"
+    categories: [0, 1]
+  - name: "cp"
+    categories: [0, 1, 2, 3]
+  - name: "fbs"
+    categories: [0, 1]
+  - name: "restecg"
+    categories: [0, 1, 2]
+  - name: "exang"
+    categories: [0, 1]
+  - name: "slope"
+    categories: [0, 1, 2]
+  - name: "ca"
+    categories: [0, 1, 2, 3]
+  - name: "thal"
+    categories: [0, 1, 2]
+target:
+  name: "condition"
+  categories: [0, 1]

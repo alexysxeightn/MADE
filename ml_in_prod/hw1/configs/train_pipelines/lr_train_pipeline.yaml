@@ -1,0 +1,8 @@
+# @package _global_
+
+defaults:
+  - _self_
+  - override /features: default
+  - override /model: logistic_regression
+  - override /split: default
+  - override /preprocessing: one_hot_transformer
