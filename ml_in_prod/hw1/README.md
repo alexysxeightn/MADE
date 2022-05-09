@@ -1,5 +1,7 @@
 # Машинное обучение в продакшене. ДЗ 1
 
+[Условия](./hw1.md)
+
 [Ссылка на датасет](https://www.kaggle.com/datasets/cherngs/heart-disease-cleveland-uci)
 
 ### Установка необходимых библиотек:
