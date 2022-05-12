@@ -127,6 +127,7 @@
 | HW 3     | MapReduce-advanced(Stackoverflow) | [Условия и решение](./big_data/hw3) |
 | HW 4     | Hive                              | [Условия и решение](./big_data/hw4) |
 | HW 5     | Spark RDD                         | [Условия и решение](./big_data/hw5) |
+| HW 6     | Spark SQL(SSSP)                   | [Условия и решение](./big_data/hw6) |
 
 ### Машинное обучение в продакшене
 
