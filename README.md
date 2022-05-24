@@ -129,6 +129,7 @@
 | HW 4     | Hive                              | [Условия и решение](./big_data/hw4) |
 | HW 5     | Spark RDD                         | [Условия и решение](./big_data/hw5) |
 | HW 6     | Spark SQL(SSSP)                   | [Условия и решение](./big_data/hw6) |
+| HW 7     | Spark-advanced(Nested_crud)       | [Условия и решение](./big_data/hw7) |
 
 ### Машинное обучение в продакшене
 
