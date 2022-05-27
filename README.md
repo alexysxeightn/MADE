@@ -130,6 +130,7 @@
 | HW 5     | Spark RDD                         | [Условия и решение](./big_data/hw5) |
 | HW 6     | Spark SQL(SSSP)                   | [Условия и решение](./big_data/hw6) |
 | HW 7     | Spark-advanced(Nested_crud)       | [Условия и решение](./big_data/hw7) |
+| HW 8     | RealTime                          | [Условия и решение](./big_data/hw8) |
 
 ### Машинное обучение в продакшене
 
