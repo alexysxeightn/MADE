@@ -1,0 +1,9 @@
+
+ count
+-------
+ 37968
+
+(1 rows)
+
+Warnings :
+Aggregation query used without partition key

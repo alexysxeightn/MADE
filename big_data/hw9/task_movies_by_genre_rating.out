@@ -1,0 +1,6 @@
+
+ system.min(rating) | system.avg(rating) | system.max(rating)
+--------------------+--------------------+--------------------
+                0.5 |            2.69605 |                  5
+
+(1 rows)
