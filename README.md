@@ -132,6 +132,7 @@
 | HW 6     | Spark SQL(SSSP)                   | [Условия и решение](./big_data/hw6) |
 | HW 7     | Spark-advanced(Nested_crud)       | [Условия и решение](./big_data/hw7) |
 | HW 8     | RealTime                          | [Условия и решение](./big_data/hw8) |
+| HW 9     | Cassandra + Spark (NoSQL)         | [Условия и решение](./big_data/hw9) |
 
 ### Машинное обучение в продакшене
 
