@@ -123,17 +123,18 @@
 | HW 1     | Word Embeddings            | [Условия и решение](./nlp/hw1)  |
 
 ### Практический курс Big Data
-| Номер дз | Тема                              | Условия и решения                   |
-|----------|-----------------------------------|-------------------------------------|
-| HW 1     | HDFS                              | [Условия и решение](./big_data/hw1) |
-| HW 2     | MapReduce                         | [Условия и решение](./big_data/hw2) |
-| HW 3     | MapReduce-advanced(Stackoverflow) | [Условия и решение](./big_data/hw3) |
-| HW 4     | Hive                              | [Условия и решение](./big_data/hw4) |
-| HW 5     | Spark RDD                         | [Условия и решение](./big_data/hw5) |
-| HW 6     | Spark SQL(SSSP)                   | [Условия и решение](./big_data/hw6) |
-| HW 7     | Spark-advanced(Nested_crud)       | [Условия и решение](./big_data/hw7) |
-| HW 8     | RealTime                          | [Условия и решение](./big_data/hw8) |
-| HW 9     | Cassandra + Spark (NoSQL)         | [Условия и решение](./big_data/hw9) |
+| Номер дз | Тема                              | Условия и решения                    |
+|----------|-----------------------------------|--------------------------------------|
+| HW 1     | HDFS                              | [Условия и решение](./big_data/hw1)  |
+| HW 2     | MapReduce                         | [Условия и решение](./big_data/hw2)  |
+| HW 3     | MapReduce-advanced(Stackoverflow) | [Условия и решение](./big_data/hw3)  |
+| HW 4     | Hive                              | [Условия и решение](./big_data/hw4)  |
+| HW 5     | Spark RDD                         | [Условия и решение](./big_data/hw5)  |
+| HW 6     | Spark SQL(SSSP)                   | [Условия и решение](./big_data/hw6)  |
+| HW 7     | Spark-advanced(Nested_crud)       | [Условия и решение](./big_data/hw7)  |
+| HW 8     | RealTime                          | [Условия и решение](./big_data/hw8)  |
+| HW 9     | Cassandra + Spark (NoSQL)         | [Условия и решение](./big_data/hw9)  |
+| HW 10    | DataLayout                        | [Условия и решение](./big_data/hw10) |
 
 ### Машинное обучение в продакшене
 
