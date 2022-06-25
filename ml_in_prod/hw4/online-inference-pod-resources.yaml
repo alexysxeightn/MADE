@@ -1,0 +1,19 @@
+apiVersion: v1
+kind: Pod
+metadata:
+  name: online-inference-pod
+  labels:
+    app: online-inference-pod
+spec:
+  containers:
+  - image: alexysxeightn/ml_in_prod_hw2:v2
+    name: online-inference
+    ports:
+    - containerPort: 8000
+    resources:
+      requests:
+        memory: "64Mi"
+        cpu: "250m"
+      limits:
+        memory: "128Mi"
+        cpu: "500m"

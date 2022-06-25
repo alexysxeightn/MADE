@@ -1,0 +1,22 @@
+apiVersion: apps/v1
+kind: ReplicaSet
+metadata:
+  name: online-inference-replicaset
+  labels:
+    app: online-inference-replicaset
+spec:
+  replicas: 3
+  selector:
+    matchLabels:
+      app: online-inference-pod
+  template:
+    metadata:
+      name: online-inference-pod
+      labels:
+        app: online-inference-pod
+    spec:
+      containers:
+      - image: alexysxeightn/ml_in_prod_hw2:v2
+        name: online-inference
+        ports:
+        - containerPort: 8000
