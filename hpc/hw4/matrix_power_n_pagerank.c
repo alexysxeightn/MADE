@@ -7,11 +7,11 @@
 
 void print_matrix(double *matrix, int N)
 {
-	size_t dummy_i = 0;
+    size_t dummy_i = 0;
 
     for (int i = 0; i < N; ++i)
     {
-    	dummy_i = i * N;
+        dummy_i = i * N;
 
         for (int j = 0; j < N; ++j)
             printf("%.0lf\t", matrix[dummy_i + j]);
@@ -23,12 +23,12 @@ void print_matrix(double *matrix, int N)
 
 void random_adj_matrix(double *matrix, int N)
 {
-	unsigned int seed = (unsigned) time(NULL);
-	size_t dummy_i = 0;
+    unsigned int seed = (unsigned) time(NULL);
+    size_t dummy_i = 0;
     
     for (int i = 0; i < N; ++i)
-   	{
-    	dummy_i = i * N;
+       {
+        dummy_i = i * N;
         for (int j = 0; j < N; ++j) 
             matrix[dummy_i + j] = (i == j) ? 0 : rand_r(&seed) & 1;
     }
@@ -38,9 +38,9 @@ double l2_norm(double *vec_1, double *vec_2, int N)
 {
     double result = 0;
 
-	#pragma omp parallel shared(vec_1, vec_2, N, result)
+    #pragma omp parallel shared(vec_1, vec_2, N, result)
     {
-		#pragma omp for reduction(+:result)
+        #pragma omp for reduction(+:result)
         for (int i = 0; i < N; ++i)
             result += (vec_1[i] - vec_2[i]) * (vec_1[i] - vec_2[i]);
     }
@@ -63,11 +63,11 @@ void mat_mul_vec(double *matrix, double *vector, double *result, int N)
 void matrix_power(double *matrix, double *result, int N, int power)
 {
 
-	size_t dummy_i = 0;
+    size_t dummy_i = 0;
 
     for (int i = 0; i < N; ++i)
     {
-    	dummy_i = i * N;
+        dummy_i = i * N;
         for (int j = 0; j < N; ++j)
             result[dummy_i + j] = (i == j) ? 1 : 0;
     }
@@ -99,9 +99,9 @@ void naive_ranking(double *matrix, double *rank, int N)
 {
     double L = 0;
 
-	#pragma omp parallel shared(rank, L, N)
+    #pragma omp parallel shared(rank, L, N)
     {
-		#pragma omp for reduction(+:L)
+        #pragma omp for reduction(+:L)
         for (int j = 0; j < N; ++j)
         {
             rank[j] = 0;
@@ -112,7 +112,7 @@ void naive_ranking(double *matrix, double *rank, int N)
             L += rank[j];
         }
 
-		#pragma omp for
+        #pragma omp for
         for (int i = 0; i < N; ++i)
             rank[i] /= L;
     }
@@ -121,13 +121,13 @@ void naive_ranking(double *matrix, double *rank, int N)
 void pagerank(double *matrix, double *rank, int N,
               double eps, double d, int max_iter)
 {
-	size_t dummy_i = 0;
+    size_t dummy_i = 0;
 
     double *M_matrix = (double *) malloc(N * N * sizeof(double));
 
-	#pragma omp parallel shared(matrix, M_matrix, N, dummy_i)
+    #pragma omp parallel shared(matrix, M_matrix, N, dummy_i)
     {
-		#pragma omp for
+        #pragma omp for
         for (int i = 0; i < N; ++i)
         {
             double out_links = 0;
@@ -154,7 +154,7 @@ void pagerank(double *matrix, double *rank, int N,
             rank[j] = (1 - d) / N + d * rank[j];
 
         if (l2_norm(prev_rank, rank, N) < eps)
-        	break;
+            break;
 
         memcpy(prev_rank, rank, N * sizeof(double));
     }
@@ -165,11 +165,11 @@ void pagerank(double *matrix, double *rank, int N,
 
 int main()
 {
-	const int N = 8;
-	const int max_power = 4;
+    const int N = 8;
+    const int max_power = 4;
 
-	// Случайная матрица смежности
-	double *matrix = (double *) malloc(N * N * sizeof(double));
+    // Случайная матрица смежности
+    double *matrix = (double *) malloc(N * N * sizeof(double));
     random_adj_matrix(matrix, N);
     printf("Случайная матрица смежности A:\n");
     print_matrix(matrix, N);
@@ -178,9 +178,9 @@ int main()
     double *pow_matrix = (double *) malloc(N * N * sizeof(double));
     for (int power = 2; power <= max_power; ++power)
     {
-    	matrix_power(matrix, pow_matrix, N, power);
-	    printf("A^%d:\n", power);
-	    print_matrix(pow_matrix, N);
+        matrix_power(matrix, pow_matrix, N, power);
+        printf("A^%d:\n", power);
+        print_matrix(pow_matrix, N);
     }
 
     // Наивное ранжирование вершин
