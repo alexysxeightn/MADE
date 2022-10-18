@@ -1,0 +1,18 @@
+1. hdfs dfs -mkdir /folder
+2. hdfs dfs -mkdir /folder/folder_2
+3. hdfs dfs -rm -skipTrash <filename>
+   Trash - это директория, куда помещаются удалённые файлы
+4. hdfs dfs -touchz /folder/folder_2/file
+5. hdfs dfs -rm -skipTrash /folder/folder_2/file
+6. hdfs dfs -rm -r -skipTrash /folder
+
+1. hdfs dfs -put file /
+2. hdfs dfs -cat /file
+3. hdfs dfs -tail /file
+4. hdfs dfs -head /file
+5. hdfs dfs -cp /file /folder/
+
+2. hdfs dfs -setrep -w 1 /file
+   увеличение числа репликаций происходит быстрее, на это также намекает сам hadoop: the waiting time may be long for DECREASING the number of replications
+3. hdfs fsck /file -files -blocks -locations
+4. hdfs fsck -blockId blk_1073741830
