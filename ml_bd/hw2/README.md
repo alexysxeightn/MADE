@@ -1,3 +1,5 @@
+[hw02.pdf](Условия)
+
 # Блок 1. Развертывание локального Hive
 
 Для развертывания использовался https://github.com/tech4242/docker-hadoop-hive-parquet
