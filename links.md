@@ -903,3 +903,89 @@
     + [Базовая вычислительная геометрия](https://youtu.be/QJBvupJd1hU)
     + [Графы - 3. Остовные деревья](https://youtu.be/uBKsX4Ray5o)
     + [Графы-4. Потоки](https://youtu.be/SBK8AWXhVvw)
+
+* #### Машинное обучение
+    + [ML Intro. Naive Bayesian Classifier. kNN](https://youtu.be/C1jhvdaLvcc)
+    + [Linear Regression, Regularization](https://youtu.be/G1R4Q5lq-vI)
+    + [Linear Classification](https://youtu.be/IDu9BDTaNvY)
+    + [Decision trees and Ensembles](https://youtu.be/I0L7qkBS5Pg)
+    + [Gradient boosting & additional info on PCA](https://youtu.be/pK5McneJXug)
+    + [Gradient boosting](https://youtu.be/aTSzY2BnNk8)
+    + [Intro to Deep Learning](https://youtu.be/NOnwgTd3-HE)
+    + [Optimization and regularization in Deep Learning](https://youtu.be/7D0Ra6z0VYs)
+    + [Recurrent Neural Networks and Language Models](https://youtu.be/hxefmsH0dO4)
+    + [RecSys](https://youtu.be/PC0RwIG-QLI)
+    + [Unsupervised learning algorithms](https://youtu.be/WVswnWKmS-o)
+
+* #### Advanced Python
+    + [Логирование, отладка, форматирование](https://youtu.be/HWW9TmA3cHE)
+    + [Потоки, GIL, процессы, IPC](https://youtu.be/9AFFzMMpnqc)
+    + [Метапрограммирование, дескрипторы, ABC](https://youtu.be/uWQ0rll8dLc)
+    + [Расширения на C](https://youtu.be/ORdJ_jP2H2s)
+    + [Устройство памяти в Python](https://youtu.be/FaSEckHPFkA)
+    + [Асинхронное программирование](https://youtu.be/OcSK51f-Qk0)
+    + [Тестирование](https://youtu.be/1gNh4AqDemw)
+    + [Аннотация типов](https://youtu.be/BJasNXu3sNU)
+    + [Особенности Python](https://youtu.be/3_Tif_ylg_E)
+
+* #### Машинное обучение на больших данных
+    + [Введение в Большие Данные](https://youtu.be/qsquDvE0Kf8)
+    + [Hadoop экосистема и MapReduce](https://youtu.be/8EHJ67xlp1E)
+    + [SQL поверх больших данных](https://youtu.be/IB6X7jgjwDg)
+    + [Инструменты визуализации при работе с Большими Данными](https://youtu.be/A58g_tCxrzg)
+    + [Введение в Scala](https://youtu.be/_gxPoYeb1ws)
+    + [Модель вычислений Spark: RDD](https://youtu.be/bdHsC_NbCXs)
+    + [Approximate алгоритмы для больших данных](https://youtu.be/lWIxed5QuDQ)
+    + [Потоковая обработка данных (Kafka, Spark Streaming, Flink)](https://youtu.be/9wM_6UbRuCk)
+    + [Фундаментальные основы распределённой СУБД](https://youtu.be/BfgK3OtFq_g)
+
+* #### Advanced C++
+    + [Этапы выполнения программы на языках Си и C++. Вопросы управления памятью на языке Си. Простые и составные структуры данных](https://youtu.be/4sRz0A30SYg)
+    + [Инструментарий C++-разработчика](https://youtu.be/rFrsV4igrmQ)
+    + [Основы ООП в C++. Объекты, их жизненный цикл и перегрузка операторов](https://youtu.be/9k7Fum03TJM)
+    + [Взаимодействие объектов в C++. Наследование, виртуальные таблицы и динамическая идентификация типов](https://youtu.be/iYww85NjdhE)
+    + [Обработка исключительных ситуаций и основы обобщённого программирования на C++](https://youtu.be/02SOeuSDguY)
+    + [Обзор возможностей библиотеки STL](https://youtu.be/QmJNMoy4Scc)
+    + [Основы построения межпроцессного и многопоточного взаимодействия с использованием языков Си и C++](https://youtu.be/hq5fjF0IoBM)
+    + [Обзор библиотек из Boost и возможностей новых стандартов языка C++](https://youtu.be/giYmhjWPEl4)
+    + [Идиоматика C++. C++ как мультипарадигмальный язык. Нововведения C++20](https://youtu.be/Cvykvus7AA8)
+    + [Использование Си/C++ в ML](https://youtu.be/dZRQRubI4BY)
+
+* #### MLOps
+    + [Вводное занятие](https://youtu.be/tzNcBY_eNyk)
+    + [Production Python code](https://youtu.be/j-1ZhRTRrMI)
+    + [Воспроизводимость в ML](https://youtu.be/oPOTY-z0srg)
+    + [Docker и Rest Services](https://youtu.be/GKAzQxUZzWc)
+    + [Data Pipelines](https://youtu.be/Mu3I8PBAIZI)
+    + [Kubernetes](https://youtu.be/ok7iQv1x0lw)
+    + [Очереди сообщений и Feature Store](https://youtu.be/ZQfbrS0kUvU)
+    + [Мониторинг, постепенные выкатки](https://youtu.be/3hkw2bscqYw)
+    + [CICD для ML моделей](https://youtu.be/LIKMTo-g188)
+    + [Подведение итогов и решения в k8s для МЛ](https://youtu.be/HXky5bdSyWU)
+
+* #### Интенсив Python
+    + [Введение в Python](https://youtu.be/S2zpPnhuyTI)
+    + [Подробнее про типы](https://youtu.be/KmJh4-nTjP0)
+    + [Функции](https://youtu.be/45cMtEtf-ZI)
+    + [Классы](https://youtu.be/-QHTF6fAjx0)
+    + [Тестирование](https://youtu.be/UUWjq5LgsqU)
+    + [Стандартная библиотека](https://youtu.be/8VjMA7OsaV8)
+    + [ООП](https://youtu.be/J-OFnrEWWHI)
+    + [Рестроспектива по пройденным темам?](https://youtu.be/IeryYIqgsQE)
+
+* #### Интенсив Computer Science
+    + [Обзор курса. Shell](https://youtu.be/OF6tDVRLhIw)
+    + [Shell инструменты и скрипты. Редакторы (vim)](https://youtu.be/a-97L3tng58)
+    + [Окружение командной строки. Команды обработки данных](https://youtu.be/w3t9Jviyyo8)
+    + [Система контроля версий (git)](https://youtu.be/o6gJsRdP590)
+ 
+* #### Подготовка к трудоустройству
+    + [Основы работы над ML/DS продуктом](https://youtu.be/BwId5hxyON8)
+    + [ML Design Interview - как проверить, что человек способен решить реальную задачу с ML?](https://youtu.be/BgGey-Rx3lQ)
+    + [Резюме для разработчиков: советы и инструкция по составлению](https://youtu.be/jnzvYHsPipM)
+    + [Чем занимается команда медиа рекомендаций ВК?](https://youtu.be/NMcTEbltfVQ)
+    + [Как проходит интервью в VK](https://youtu.be/5sXdjo0mHd4)
+ 
+* #### Учебный проект. Производство и деплой ML/DS продукта
+    + [Вводные данные по учебному проекту](https://youtu.be/03IXr6XLezI)
+    + [Q&A по учебному проекту](https://youtu.be/M3iyFUkjE-c)
